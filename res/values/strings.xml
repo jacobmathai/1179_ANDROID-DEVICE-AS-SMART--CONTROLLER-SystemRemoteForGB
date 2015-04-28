@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SystemRemote</string>
+    <string name="title_mouse">Mouse</string>
+    <string name="title_keyboard">Keyboard</string>
+    <string name="title_arrow">Navigation</string>
+    
+    <string name="title_apps">Application Control</string>
+    <string name="title_server">Server Settings</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

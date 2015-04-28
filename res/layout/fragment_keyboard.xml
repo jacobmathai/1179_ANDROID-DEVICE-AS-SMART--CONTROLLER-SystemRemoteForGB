@@ -1,0 +1,295 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kites.systemremote.MainActivity$KeyboardFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" android:paddingTop="15dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Num Pad" />
+
+            <ToggleButton
+                android:id="@+id/tb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shift" />
+
+            <ToggleButton
+                android:id="@+id/tb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caps Lock" />
+
+            <ToggleButton
+                android:id="@+id/tb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="U" />
+        <Button
+                android:id="@+id/bt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="P" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            
+            <Button
+                android:id="@+id/bt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/bt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/bt13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/bt14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="F" />
+        <Button
+                android:id="@+id/bt15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/bt16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/bt17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/bt18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/bt19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="L" />
+
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+                        <Button
+                android:id="@+id/bt20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="Z" />
+
+            <Button
+                android:id="@+id/bt21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="X" />
+            <Button
+                android:id="@+id/bt22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/bt23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/bt24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/bt25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/bt26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="M" />
+            
+        </LinearLayout>
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="TAB" />
+
+           
+            <Button
+                android:id="@+id/bt28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="SPACE BAR" />
+
+            <Button
+                android:id="@+id/bt29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="CTRL" />
+
+            <Button
+                android:id="@+id/bt30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 style="?android:attr/buttonStyleSmall"
+                android:text="ALT" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
